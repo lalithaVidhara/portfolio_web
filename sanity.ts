@@ -1,6 +1,8 @@
 
 import createImageUrlBuilder from '@sanity/image-url'
 import { createClient } from 'next-sanity'; 
+// import dotenv from 'dotenv';
+// dotenv.config();
 
 export const config = {
     dataset: process.env.NEXT_PUBLIC_SANITY_DATASET || 'production',
@@ -8,6 +10,7 @@ export const config = {
     apiVersion: '2021-03-25',
     useCdn: process.env.NODE_ENV === 'production',
 };
+
 
 // Set up the client for fetching data in the getProps page function
 export const sanityClient = createClient(config);
