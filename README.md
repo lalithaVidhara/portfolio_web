@@ -1,10 +1,12 @@
 # Portfolio Website
 
+![Portfolio Demo](./public/portfolio.gif)
+
 This is a personal portfolio website built with **React**, **Next.js**, **TypeScript**, and **Sanity CMS**. It showcases my projects, skills, and experience, offering a platform to present myself professionally.
 
 ## Inspiration
 
-This project is inspired by **Mitchell Sparrow's portfolio** and **Sonny Sangha's  video**.
+This project is inspired by **Mitchell Sparrow's portfolio** and **Sonny Sangha's video**.
 
 ## Features
 
@@ -12,10 +14,6 @@ This project is inspired by **Mitchell Sparrow's portfolio** and **Sonny Sangha'
 - Responsive design for all devices
 - Modern technologies: React, Next.js, and TypeScript
 - SEO optimization for improved discoverability
-
-## Live Demo
-
-[View the Live Site](#) *(Replace with your live URL)*
 
 ---
 
@@ -62,7 +60,7 @@ npm run dev
 ```
 
 ### 2. Start Sanity Studio
-Navigate to the `sanity` folder and run:
+Navigate to the sanity folder and run:
 ```bash
 npm run start
 ```

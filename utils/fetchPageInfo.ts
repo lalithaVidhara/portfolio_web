@@ -4,6 +4,8 @@ import { PageInfo } from "../typings";
 
 export const fetchPageInfo = async () => {
     const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
+    console.log("Fetching Page Info from:", `${baseUrl}/api/getPageInfo`);
+
     if (!baseUrl) {
       throw new Error("NEXT_PUBLIC_BASE_URL is not defined.");
     }
